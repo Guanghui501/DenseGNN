@@ -1017,7 +1017,7 @@ hyper = {
                         "offset": {"shape": (None, 3), "name": "offset", "dtype": "float32", "ragged": True},
                         "voronoi_ridge_area": {"shape": (None, ), "name": "voronoi_ridge_area", "dtype": "float32", "ragged": True},
                         "atomic_number": {"shape": (None,), "name": "atomic_number", "dtype": "int32", "ragged": True},
-                        "AGNIFinger": {"shape": (None,128), "name": "AGNIFinger", "dtype": "float32", "ragged": True},
+                        "AGNIFinger": {"shape": (None,24), "name": "AGNIFinger", "dtype": "float32", "ragged": True},
                         "edge_indices": {"shape": (None, 2), "name": "edge_indices", "dtype": "int64", "ragged": True},
                         "charge": {'shape': [1], 'name': "charge", 'dtype': 'float32', 'ragged': False},
                    
