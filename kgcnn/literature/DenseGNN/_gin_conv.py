@@ -97,7 +97,7 @@ class GINE(GraphBaseLayer):
 
 
 
-@tf.keras.utils.register_keras_serializable(package='kgcnn', name='GINE')
+@tf.keras.utils.register_keras_serializable(package='kgcnn', name='GINELITE')
 class GINELITE(GraphBaseLayer):
     r"""Convolutional unit of `Strategies for Pre-training Graph Neural Networks <https://arxiv.org/abs/1905.12265>`_.
 
